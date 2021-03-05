@@ -6,6 +6,10 @@
     <description>Recent content in Categories on Andrew Diab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright><atom:link href="https://andrew1ooo.github.io/AndrewWebsite/fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
+    
+	<atom:link href="https://andrew1ooo.github.io/AndrewWebsite/fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

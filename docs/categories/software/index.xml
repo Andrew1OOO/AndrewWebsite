@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Andrew Diab</copyright>
-    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://andrew1ooo.github.io/AndrewWebsite/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://andrew1ooo.github.io/AndrewWebsite/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Binteger</title>
       <link>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-7/</link>
