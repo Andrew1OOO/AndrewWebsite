@@ -3,210 +3,210 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://examplesite.com/categories/algorithms/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/algorithms/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/</loc>
-    <lastmod>2020-11-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://examplesite.com/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://examplesite.com/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://examplesite.com/categories/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://examplesite.com/fr/categories/"
+                href="https://andrew1ooo.github.io/AndrewWebsite/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://examplesite.com/categories/"
+                href="https://andrew1ooo.github.io/AndrewWebsite/"
                 />
   </url>
   
   <url>
-    <loc>https://examplesite.com/categories/complexity/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/</loc>
+    <lastmod>2020-11-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://andrew1ooo.github.io/AndrewWebsite/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://andrew1ooo.github.io/AndrewWebsite/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/complexity/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/portfolio/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/portfolio/project-3/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-3/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/categories/visualizations/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/visualizations/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/portfolio/project-7/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-7/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/categories/oop/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/oop/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/categories/software/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/software/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/portfolio/project-6/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-6/</loc>
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/tags/access/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/access/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/tags/art/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/art/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/tags/database/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/database/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/tags/design/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/design/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/tags/development/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/development/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/robotics/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/robotics/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/tags/sketch/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/sketch/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/tags/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://examplesite.com/fr/tags/"
+                href="https://andrew1ooo.github.io/AndrewWebsite/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://examplesite.com/tags/"
+                href="https://andrew1ooo.github.io/AndrewWebsite/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://examplesite.com/robotics/blog-1/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-1/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/robotics/blog-2/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-2/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/robotics/blog-3/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-3/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/robotics/blog-4/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-4/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/robotics/blog-5/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-5/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/robotics/blog-6/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-6/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/tags/web/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/web/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/categories/database/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/database/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/portfolio/project-4/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-4/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/categories/games/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/games/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/portfolio/project-5/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-5/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/categories/design/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/design/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/portfolio/project-1/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-1/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/portfolio/project-2/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-2/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/about/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/about/</loc>
   </url>
   
   <url>
-    <loc>https://examplesite.com/banner/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/banner/</loc>
   </url>
   
   <url>
-    <loc>https://examplesite.com/contact/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/contact/</loc>
   </url>
   
 </urlset>

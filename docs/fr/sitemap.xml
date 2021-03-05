@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://examplesite.com/fr/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://examplesite.com/"
+                href="https://andrew1ooo.github.io/AndrewWebsite/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://examplesite.com/fr/"
+                href="https://andrew1ooo.github.io/AndrewWebsite/fr/"
                 />
   </url>
   
   <url>
-    <loc>https://examplesite.com/fr/categories/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://examplesite.com/categories/"
+                href="https://andrew1ooo.github.io/AndrewWebsite/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://examplesite.com/fr/categories/"
+                href="https://andrew1ooo.github.io/AndrewWebsite/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://examplesite.com/fr/tags/</loc>
+    <loc>https://andrew1ooo.github.io/AndrewWebsite/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://examplesite.com/tags/"
+                href="https://andrew1ooo.github.io/AndrewWebsite/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://examplesite.com/fr/tags/"
+                href="https://andrew1ooo.github.io/AndrewWebsite/fr/tags/"
                 />
   </url>
   

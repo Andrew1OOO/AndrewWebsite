@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Complexity on Andrew Diab</title>
-    <link>https://examplesite.com/categories/complexity/</link>
+    <link>https://andrew1ooo.github.io/AndrewWebsite/categories/complexity/</link>
     <description>Recent content in Complexity on Andrew Diab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Andrew Diab</copyright>
-    <lastBuildDate>Fri, 20 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/categories/complexity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://andrew1ooo.github.io/AndrewWebsite/categories/complexity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sorting Visualization</title>
-      <link>https://examplesite.com/portfolio/project-3/</link>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-3/</link>
       <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/portfolio/project-3/</guid>
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-3/</guid>
       <description>Sorting Algorithms The sorting algorithms that are used in this are Bogo Sort, Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Merge Sort, Heap Sort.</description>
     </item>
     
