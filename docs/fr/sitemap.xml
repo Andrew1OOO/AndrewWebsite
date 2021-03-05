@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://andrew1ooo.github.io/AndrewWebsite/fr/</loc>
+    <loc>http://andrew1ooo.github.io/AndrewWebsite/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://andrew1ooo.github.io/AndrewWebsite/"
+                href="http://andrew1ooo.github.io/AndrewWebsite/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://andrew1ooo.github.io/AndrewWebsite/fr/"
+                href="http://andrew1ooo.github.io/AndrewWebsite/fr/"
                 />
   </url>
   
   <url>
-    <loc>https://andrew1ooo.github.io/AndrewWebsite/fr/categories/</loc>
+    <loc>http://andrew1ooo.github.io/AndrewWebsite/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://andrew1ooo.github.io/AndrewWebsite/categories/"
+                href="http://andrew1ooo.github.io/AndrewWebsite/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://andrew1ooo.github.io/AndrewWebsite/fr/categories/"
+                href="http://andrew1ooo.github.io/AndrewWebsite/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://andrew1ooo.github.io/AndrewWebsite/fr/tags/</loc>
+    <loc>http://andrew1ooo.github.io/AndrewWebsite/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://andrew1ooo.github.io/AndrewWebsite/tags/"
+                href="http://andrew1ooo.github.io/AndrewWebsite/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://andrew1ooo.github.io/AndrewWebsite/fr/tags/"
+                href="http://andrew1ooo.github.io/AndrewWebsite/fr/tags/"
                 />
   </url>
   

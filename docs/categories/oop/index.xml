@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OOP on Andrew Diab</title>
-    <link>https://andrew1ooo.github.io/AndrewWebsite/categories/oop/</link>
+    <link>http://andrew1ooo.github.io/AndrewWebsite/categories/oop/</link>
     <description>Recent content in OOP on Andrew Diab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Andrew Diab</copyright>
-    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://andrew1ooo.github.io/AndrewWebsite/categories/oop/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://andrew1ooo.github.io/AndrewWebsite/categories/oop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Binteger</title>
-      <link>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-7/</link>
+      <link>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-7/</link>
       <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-7/</guid>
+      <guid>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-7/</guid>
       <description>Description This proejct is a copy of the actual java library, Big Integer.</description>
     </item>
     
     <item>
       <title>Mathmatical Expression Evaluator</title>
-      <link>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-6/</link>
+      <link>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-6/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-6/</guid>
+      <guid>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-6/</guid>
       <description>Description This project is a mathematical String evalutor. It takes in expression as a string, &amp;ldquo;(3+3)/10*40+5&amp;rdquo;, and evalutates it to the correct answer, using correct order of operations.</description>
     </item>
     
