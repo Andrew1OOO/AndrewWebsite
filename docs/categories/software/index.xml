@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Andrew Diab</title>
-    <link>http://andrew1ooo.github.io/AndrewWebsite/categories/software/</link>
+    <link>https://andrew1ooo.github.io/AndrewWebsite/categories/software/</link>
     <description>Recent content in Software on Andrew Diab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Andrew Diab</copyright>
-    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://andrew1ooo.github.io/AndrewWebsite/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://andrew1ooo.github.io/AndrewWebsite/categories/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Binteger</title>
-      <link>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-7/</link>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-7/</link>
       <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-7/</guid>
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-7/</guid>
       <description>Description This proejct is a copy of the actual java library, Big Integer.</description>
     </item>
     
     <item>
       <title>Mathmatical Expression Evaluator</title>
-      <link>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-6/</link>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-6/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-6/</guid>
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-6/</guid>
       <description>Description This project is a mathematical String evalutor. It takes in expression as a string, &amp;ldquo;(3+3)/10*40+5&amp;rdquo;, and evalutates it to the correct answer, using correct order of operations.</description>
     </item>
     
     <item>
       <title>TicTacToe Solver</title>
-      <link>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-5/</link>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-5/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-5/</guid>
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-5/</guid>
       <description>Description TicTacToe is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid.</description>
     </item>
     
     <item>
       <title>Othello</title>
-      <link>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-1/</link>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-1/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-1/</guid>
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-1/</guid>
       <description>&lt;h1 id=&#34;what-is-othelloreversi&#34;&gt;What is Othello/Reversi?&lt;/h1&gt;</description>
     </item>
     
     <item>
       <title>Hangman</title>
-      <link>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-2/</link>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-2/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-2/</guid>
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-2/</guid>
       <description>Description Hangman is a classic game played by many board students and kids.</description>
     </item>
     

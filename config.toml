@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://andrew1ooo.github.io/AndrewWebsite/"
+baseURL = "https://andrew1ooo.github.io/AndrewWebsite/"
 title = "Andrew Diab"
 theme = "somrat"
 # post pagination

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>design on Andrew Diab</title>
-    <link>http://andrew1ooo.github.io/AndrewWebsite/categories/design/</link>
+    <link>https://andrew1ooo.github.io/AndrewWebsite/categories/design/</link>
     <description>Recent content in design on Andrew Diab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Andrew Diab</copyright>
-    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://andrew1ooo.github.io/AndrewWebsite/categories/design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://andrew1ooo.github.io/AndrewWebsite/categories/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Othello</title>
-      <link>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-1/</link>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-1/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://andrew1ooo.github.io/AndrewWebsite/portfolio/project-1/</guid>
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-1/</guid>
       <description>&lt;h1 id=&#34;what-is-othelloreversi&#34;&gt;What is Othello/Reversi?&lt;/h1&gt;</description>
     </item>
     
