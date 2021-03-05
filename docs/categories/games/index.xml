@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>games on Andrew Diab</title>
+    <link>https://examplesite.com/categories/games/</link>
+    <description>Recent content in games on Andrew Diab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Andrew Diab</copyright>
+    <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/categories/games/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TicTacToe Solver</title>
+      <link>https://examplesite.com/portfolio/project-5/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/portfolio/project-5/</guid>
+      <description>Description TicTacToe is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid.</description>
+    </item>
+    
+    <item>
+      <title>Othello</title>
+      <link>https://examplesite.com/portfolio/project-1/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/portfolio/project-1/</guid>
+      <description>&lt;h1 id=&#34;what-is-othelloreversi&#34;&gt;What is Othello/Reversi?&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hangman</title>
+      <link>https://examplesite.com/portfolio/project-2/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/portfolio/project-2/</guid>
+      <description>Description Hangman is a classic game played by many board students and kids.</description>
+    </item>
+    
+  </channel>
+</rss>
