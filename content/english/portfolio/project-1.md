@@ -1,7 +1,7 @@
 ---
 title: "Othello"
 date: 2019-03-05
-image: "images/portfolio/reversi.png"
+image: "images/portfolio/Reversi.png"
 categories: ["design","Software", "games"]
 description: "This is meta description."
 draft: false
