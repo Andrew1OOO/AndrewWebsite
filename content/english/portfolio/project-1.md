@@ -26,6 +26,8 @@ The object of the game is to have the majority of disks turned to display your c
 ## Implementation
 
   I this project out by creating all the necessary tools, setting up for the rest of the code. The board is represent as a 2D list, which can be access by [row][column]. I then created a copy of the board for the computer to go through each possibble move and find the best possible move. The set_starting_position is quite self explanitory, and the print board prints the 2D list to the terminal nicely.  
+
+  
 ```python
 def make_board(board):
   for i in range(8):
