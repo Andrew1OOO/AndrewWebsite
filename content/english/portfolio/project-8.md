@@ -68,7 +68,7 @@ for i in range(len(board)):
 
     The GUI looks like this:
 
-![Chess Implementation 2](images/images/chess2.png)
+![Chess Implementation 2](https://github.com/Andrew1OOO/static/images/chess2.png)
 
 ## Goals with this Project
  - get better at GUI building 
@@ -80,7 +80,7 @@ for i in range(len(board)):
  - Maybe give the user a darkmode option or a themes option
 
 ## Conclusion
-    2 years ago I tried to make a chess game with a friend and I was never able to do it. Now I am able to make it by myself in just under 5 days. That shows the progression of my programming skills from 9th-11th grade. This project is also not the best I have done this year. 
+2 years ago I tried to make a chess game with a friend and I was never able to do it. Now I am able to make it by myself in just under 5 days. That shows the progression of my programming skills from 9th-11th grade. This project is also not the best I have done this year. 
 
 You can find my Github link for the code [here](https://github.com/Andrew1OOO/Andrew-Projects)
 ***
