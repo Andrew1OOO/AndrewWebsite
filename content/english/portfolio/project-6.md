@@ -1,5 +1,5 @@
 ---
-title: "Mathmatical Expression Evaluator"
+title: "Math Expression Evaluator"
 date: 2020-10-15
 image: "images/portfolio/shunting.png"
 categories: ["OOP","Software", "Algorithms"]

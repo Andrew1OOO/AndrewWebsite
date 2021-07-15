@@ -1,7 +1,7 @@
 ---
 title: "Chess"
 date: 2021-06-10
-image: "images/portfolio/othello.png"
+image: "images/images/chess2.png"
 categories: ["design", "games"]
 description: "This is meta description."
 draft: false
@@ -15,7 +15,7 @@ project_info:
 
 ---
 
-# Chess
+# Description
 <!--more-->
 For this project I recreated the well known board game chess in python. I made 2 implementation of it, one which prints the output to the terminal and the other which has a GUI. Chess
 
