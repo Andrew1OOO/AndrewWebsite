@@ -7,10 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Andrew Diab</copyright>
-    <lastBuildDate>Fri, 20 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://andrew1ooo.github.io/AndrewWebsite/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>design</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/categories/design/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/design/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://andrew1ooo.github.io/AndrewWebsite/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>games</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/categories/games/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/games/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>OOP</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/categories/oop/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/oop/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Algorithms</title>
@@ -40,15 +63,6 @@
     </item>
     
     <item>
-      <title>OOP</title>
-      <link>https://andrew1ooo.github.io/AndrewWebsite/categories/oop/</link>
-      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/oop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Software</title>
       <link>https://andrew1ooo.github.io/AndrewWebsite/categories/software/</link>
       <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
@@ -63,24 +77,6 @@
       <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/database/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>games</title>
-      <link>https://andrew1ooo.github.io/AndrewWebsite/categories/games/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/games/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>design</title>
-      <link>https://andrew1ooo.github.io/AndrewWebsite/categories/design/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/design/</guid>
       <description></description>
     </item>
     

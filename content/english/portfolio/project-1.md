@@ -21,7 +21,7 @@ Reversi is a strategy board game for two players, played on an 8×8 uncheckered 
 
 The object of the game is to have the majority of disks turned to display your color when the last playable empty square is filled.
 ***
-{{< figure src="https://andrew1ooo.github.io/Andrew-Diab-Website/gifs/othello.gif" alt="othello.gif" width=500 >}}
+
 
 ## Implementation
 

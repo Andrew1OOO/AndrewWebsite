@@ -18,7 +18,6 @@ project_info:
 
 # Description
   Hangman is a classic game played by many board students and kids. Basically the aim of the game is to guess the word that a person chooses. 
-  {{< figure src="https://andrew1ooo.github.io/Andrew-Diab-Website/gifs/Hangman.gif" alt="Hangman.gif" width=500 >}}
 
 
 ## Implementation
