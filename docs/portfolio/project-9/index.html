@@ -160,54 +160,54 @@
 <p>Monte Carlo Simulations are used to find the best move in 2048. The Monte Carlo method is the idea of using a large number of random simulations of an experiment to gain insights into the experiment&rsquo;s end results. In other words, Monte Carlo simulations are a way to estimate what will happen in a given experiment without having to implement any specific algorithms. To implement this into 2048, I would cycle each move [left, right, up, down] for the amount of simulations given, so if 200 simulations were given, each move [left, right, up, down] would be simulated 50 times. After each move, I would then have the simulation move randomly until the game was over. So it would simulate 200 games before making a move, and score each first move and then at the end return the best first move, which would be the move in the actual game.</p>
 <p>Here is the code:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">        
-    <span style="color:#66d9ef">for</span> inter, m <span style="color:#f92672">in</span> enumerate(possible_moves):
-        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(int(amount)):
-            simulation <span style="color:#f92672">=</span> Board(mode)
-            simulation<span style="color:#f92672">.</span>board <span style="color:#f92672">=</span> copy<span style="color:#f92672">.</span>deepcopy(board)
+<span style="color:#66d9ef">for</span> inter, m <span style="color:#f92672">in</span> enumerate(possible_moves):
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(int(amount)):
+        simulation <span style="color:#f92672">=</span> Board(mode)
+        simulation<span style="color:#f92672">.</span>board <span style="color:#f92672">=</span> copy<span style="color:#f92672">.</span>deepcopy(board)
                 
-            simulation<span style="color:#f92672">.</span>move(m)
+        simulation<span style="color:#f92672">.</span>move(m)
+        simulation<span style="color:#f92672">.</span>add_block(Block(<span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>), pg<span style="color:#f92672">.</span>Rect(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">60</span>, <span style="color:#ae81ff">60</span>), mode))
+
+        <span style="color:#66d9ef">while</span>((simulation<span style="color:#f92672">.</span>game_over() <span style="color:#f92672">==</span> <span style="color:#66d9ef">False</span>)):
+            simulation<span style="color:#f92672">.</span>move(possible_moves[random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">3</span>)])
             simulation<span style="color:#f92672">.</span>add_block(Block(<span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>), pg<span style="color:#f92672">.</span>Rect(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">60</span>, <span style="color:#ae81ff">60</span>), mode))
 
-            <span style="color:#66d9ef">while</span>((simulation<span style="color:#f92672">.</span>game_over() <span style="color:#f92672">==</span> <span style="color:#66d9ef">False</span>)):
-                simulation<span style="color:#f92672">.</span>move(possible_moves[random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">3</span>)])
-                simulation<span style="color:#f92672">.</span>add_block(Block(<span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>), pg<span style="color:#f92672">.</span>Rect(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">60</span>, <span style="color:#ae81ff">60</span>), mode))
 
+        simScore[inter] <span style="color:#f92672">+=</span> simulation<span style="color:#f92672">.</span>score
+topScore <span style="color:#f92672">=</span> max(simScore)
 
-            simScore[inter] <span style="color:#f92672">+=</span> simulation<span style="color:#f92672">.</span>score
-    topScore <span style="color:#f92672">=</span> max(simScore)
+index <span style="color:#f92672">=</span> simScore<span style="color:#f92672">.</span>index(topScore)
+bestMove <span style="color:#f92672">=</span> possible_moves[index]
 
-    index <span style="color:#f92672">=</span> simScore<span style="color:#f92672">.</span>index(topScore)
-    bestMove <span style="color:#f92672">=</span> possible_moves[index]
-
-    <span style="color:#66d9ef">return</span> bestMove
+<span style="color:#66d9ef">return</span> bestMove
 </code></pre></div><h2 id="game-implementation">Game Implementation</h2>
 <p>For the game I used pygame and Tkinter. Pygame was for the actual game and Tkinter was for the UI to choose weather to simulate or play the game. I created a Block class which was the super class of Board. To make it simplier I shifted a list in python and then updated the GUI based on the board. Here is the code for shifting left:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">shift_left</span>(self):
-        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(self<span style="color:#f92672">.</span>board)):
-            v<span style="color:#f92672">=</span>[]
-            w<span style="color:#f92672">=</span>[]
-            <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(len(self<span style="color:#f92672">.</span>board[<span style="color:#ae81ff">0</span>])):
-                <span style="color:#66d9ef">if</span>(self<span style="color:#f92672">.</span>board[i][j] <span style="color:#f92672">!=</span> <span style="color:#ae81ff">0</span>):
-                    v<span style="color:#f92672">.</span>append(self<span style="color:#f92672">.</span>board[i][j])
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">shift_left</span>(self):
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(self<span style="color:#f92672">.</span>board)):
+        v<span style="color:#f92672">=</span>[]
+        w<span style="color:#f92672">=</span>[]
+        <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(len(self<span style="color:#f92672">.</span>board[<span style="color:#ae81ff">0</span>])):
+            <span style="color:#66d9ef">if</span>(self<span style="color:#f92672">.</span>board[i][j] <span style="color:#f92672">!=</span> <span style="color:#ae81ff">0</span>):
+                v<span style="color:#f92672">.</span>append(self<span style="color:#f92672">.</span>board[i][j])
 
-            j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
-            <span style="color:#66d9ef">while</span>(j <span style="color:#f92672">&lt;</span> len(v)):
-                <span style="color:#66d9ef">if</span>(j <span style="color:#f92672">&lt;</span> len(v) <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">and</span> v[j]<span style="color:#f92672">.</span>size <span style="color:#f92672">==</span> v[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>size):
-                    v[j]<span style="color:#f92672">.</span>set_size(v[j]<span style="color:#f92672">.</span>size<span style="color:#f92672">*</span><span style="color:#ae81ff">2</span>)
-                    w<span style="color:#f92672">.</span>append(v[j])
-                    self<span style="color:#f92672">.</span>score <span style="color:#f92672">+=</span> v[j]<span style="color:#f92672">.</span>size
-                    j<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
-                <span style="color:#66d9ef">else</span>:
-                    w<span style="color:#f92672">.</span>append(v[j])
-                j <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
-            
-            <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(len(self<span style="color:#f92672">.</span>board)):
-                self<span style="color:#f92672">.</span>board[i][j] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-            j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
-            <span style="color:#66d9ef">for</span> it <span style="color:#f92672">in</span> w:
-                self<span style="color:#f92672">.</span>board[i][j] <span style="color:#f92672">=</span> it
-
+        j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+        <span style="color:#66d9ef">while</span>(j <span style="color:#f92672">&lt;</span> len(v)):
+            <span style="color:#66d9ef">if</span>(j <span style="color:#f92672">&lt;</span> len(v) <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">and</span> v[j]<span style="color:#f92672">.</span>size <span style="color:#f92672">==</span> v[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>size):
+                v[j]<span style="color:#f92672">.</span>set_size(v[j]<span style="color:#f92672">.</span>size<span style="color:#f92672">*</span><span style="color:#ae81ff">2</span>)
+                w<span style="color:#f92672">.</span>append(v[j])
+                self<span style="color:#f92672">.</span>score <span style="color:#f92672">+=</span> v[j]<span style="color:#f92672">.</span>size
                 j<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+            <span style="color:#66d9ef">else</span>:
+                w<span style="color:#f92672">.</span>append(v[j])
+            j <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+            
+        <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(len(self<span style="color:#f92672">.</span>board)):
+            self<span style="color:#f92672">.</span>board[i][j] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+        j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+        <span style="color:#66d9ef">for</span> it <span style="color:#f92672">in</span> w:
+            self<span style="color:#f92672">.</span>board[i][j] <span style="color:#f92672">=</span> it
+
+            j<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
     
 </code></pre></div><pre><code>And here is what it looks like:
 </code></pre>
