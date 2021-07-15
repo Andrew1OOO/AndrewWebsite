@@ -25,28 +25,28 @@ Monte Carlo Simulations are used to find the best move in 2048. The Monte Carlo 
 
 Here is the code:
 
-```python
-        
-for inter, m in enumerate(possible_moves):
-    for i in range(int(amount)):
-        simulation = Board(mode)
-        simulation.board = copy.deepcopy(board)
-                
-        simulation.move(m)
-        simulation.add_block(Block(2 * random.randint(1,2), pg.Rect(0,0, 60, 60), mode))
-
-        while((simulation.game_over() == False)):
-            simulation.move(possible_moves[random.randint(0,3)])
+```python        
+    for inter, m in enumerate(possible_moves):
+        for i in range(int(amount)):
+            simulation = Board(mode)
+            simulation.board = copy.deepcopy(board)
+                    
+            simulation.move(m)
             simulation.add_block(Block(2 * random.randint(1,2), pg.Rect(0,0, 60, 60), mode))
 
+            while((simulation.game_over() == False)):
+                simulation.move(possible_moves[random.randint(0,3)])
+                simulation.add_block(Block(2 * random.randint(1,2), pg.Rect(0,0, 60, 60), mode))
 
-        simScore[inter] += simulation.score
-topScore = max(simScore)
 
-index = simScore.index(topScore)
-bestMove = possible_moves[index]
+            simScore[inter] += simulation.score
+    topScore = max(simScore)
 
-return bestMove
+    index = simScore.index(topScore)
+    bestMove = possible_moves[index]
+
+    return bestMove
+    
 ```
 
 
@@ -58,33 +58,33 @@ For the game I used pygame and Tkinter. Pygame was for the actual game and Tkint
 
 
 ```python
-def shift_left(self):
-    for i in range(len(self.board)):
-        v=[]
-        w=[]
-        for j in range(len(self.board[0])):
-            if(self.board[i][j] != 0):
-                v.append(self.board[i][j])
+    def shift_left(self):
+        for i in range(len(self.board)):
+            v=[]
+            w=[]
+            for j in range(len(self.board[0])):
+                if(self.board[i][j] != 0):
+                    v.append(self.board[i][j])
 
-        j=0
-        while(j < len(v)):
-            if(j < len(v) - 1 and v[j].size == v[j+1].size):
-                v[j].set_size(v[j].size*2)
-                w.append(v[j])
-                self.score += v[j].size
+            j=0
+            while(j < len(v)):
+                if(j < len(v) - 1 and v[j].size == v[j+1].size):
+                    v[j].set_size(v[j].size*2)
+                    w.append(v[j])
+                    self.score += v[j].size
+                    j+=1
+                else:
+                    w.append(v[j])
+                j += 1
+                
+            for j in range(len(self.board)):
+                self.board[i][j] = 0
+            j=0
+            for it in w:
+                self.board[i][j] = it
+
                 j+=1
-            else:
-                w.append(v[j])
-            j += 1
-            
-        for j in range(len(self.board)):
-            self.board[i][j] = 0
-        j=0
-        for it in w:
-            self.board[i][j] = it
-
-            j+=1
-    
+        
 ```
 
     And here is what it looks like:
@@ -92,12 +92,12 @@ def shift_left(self):
 ![2048](https://andrew1ooo.github.io/AndrewWebsite/images/images/20481.png)
 
 
-    I also create a dark mode for the GUI:
+    I also created a dark mode for the GUI:
 
 ![2048](https://andrew1ooo.github.io/AndrewWebsite/images/images/20482.png)
 
 
-## Demonstration 
+## Final Product 
 
 ![2048](https://andrew1ooo.github.io/AndrewWebsite/images/images/20482.png) 
 
