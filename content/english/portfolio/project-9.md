@@ -13,7 +13,7 @@ project_info:
   icon: "fas fa-link"
   content: "https://github.com/Andrew1OOO/Games"
 
----
+-----------
 
 # Description
 <!--more-->
@@ -21,7 +21,9 @@ project_info:
 
 ## Monte Carlo Simulations
 
-Monte Carlo Simulations are used to find the best move in 2048. The Monte Carlo method is the idea of using a large number of random simulations of an experiment to gain insights into the experiment's end results. In other words, Monte Carlo simulations are a way to estimate what will happen in a given experiment without having to implement any specific algorithms. To implement this into 2048, I would cycle each move [left, right, up, down] for the amount of simulations given, so if 200 simulations were given, each move [left, right, up, down] would be simulated 50 times. After each move, I would then have the simulation move randomly until the game was over. So it would simulate 200 games before making a move, and score each first move and then at the end return the best first move, which would be the move in the actual game. Here is the code:
+Monte Carlo Simulations are used to find the best move in 2048. The Monte Carlo method is the idea of using a large number of random simulations of an experiment to gain insights into the experiment's end results. In other words, Monte Carlo simulations are a way to estimate what will happen in a given experiment without having to implement any specific algorithms. To implement this into 2048, I would cycle each move [left, right, up, down] for the amount of simulations given, so if 200 simulations were given, each move [left, right, up, down] would be simulated 50 times. After each move, I would then have the simulation move randomly until the game was over. So it would simulate 200 games before making a move, and score each first move and then at the end return the best first move, which would be the move in the actual game. 
+
+Here is the code:
 
 ```python
         
@@ -47,7 +49,7 @@ Monte Carlo Simulations are used to find the best move in 2048. The Monte Carlo 
     return bestMove
 ```
 
-***
+
 
 
 ## Game Implementation 

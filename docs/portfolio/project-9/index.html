@@ -153,10 +153,12 @@
           <div class="about-me-text mb-4">
             <h1>2048 AI</h1>
           </div>
-          <div class="content"><h1 id="description">Description</h1>
+          <div class="content"><hr>
+<h1 id="description">Description</h1>
 <p>2048 is a tile/board game in which the user moves tiles back, forth, and vertically around a 4x4 grid to create the number 2048. The numbers going up by 2^n, where n is the each merge. So to get 8 you have to merge 3 times, 2-2=4-4=8. With this project I decided to recreate the game, as well as create an &ldquo;AI&rdquo; for it. The AI uses Monte Carlo Simulation to quickly get to 2048.</p>
 <h2 id="monte-carlo-simulations">Monte Carlo Simulations</h2>
-<p>Monte Carlo Simulations are used to find the best move in 2048. The Monte Carlo method is the idea of using a large number of random simulations of an experiment to gain insights into the experiment&rsquo;s end results. In other words, Monte Carlo simulations are a way to estimate what will happen in a given experiment without having to implement any specific algorithms. To implement this into 2048, I would cycle each move [left, right, up, down] for the amount of simulations given, so if 200 simulations were given, each move [left, right, up, down] would be simulated 50 times. After each move, I would then have the simulation move randomly until the game was over. So it would simulate 200 games before making a move, and score each first move and then at the end return the best first move, which would be the move in the actual game. Here is the code:</p>
+<p>Monte Carlo Simulations are used to find the best move in 2048. The Monte Carlo method is the idea of using a large number of random simulations of an experiment to gain insights into the experiment&rsquo;s end results. In other words, Monte Carlo simulations are a way to estimate what will happen in a given experiment without having to implement any specific algorithms. To implement this into 2048, I would cycle each move [left, right, up, down] for the amount of simulations given, so if 200 simulations were given, each move [left, right, up, down] would be simulated 50 times. After each move, I would then have the simulation move randomly until the game was over. So it would simulate 200 games before making a move, and score each first move and then at the end return the best first move, which would be the move in the actual game.</p>
+<p>Here is the code:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">        
     <span style="color:#66d9ef">for</span> inter, m <span style="color:#f92672">in</span> enumerate(possible_moves):
         <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(int(amount)):
@@ -178,8 +180,7 @@
     bestMove <span style="color:#f92672">=</span> possible_moves[index]
 
     <span style="color:#66d9ef">return</span> bestMove
-</code></pre></div><hr>
-<h2 id="game-implementation">Game Implementation</h2>
+</code></pre></div><h2 id="game-implementation">Game Implementation</h2>
 <p>For the game I used pygame and Tkinter. Pygame was for the actual game and Tkinter was for the UI to choose weather to simulate or play the game. I created a Block class which was the super class of Board. To make it simplier I shifted a list in python and then updated the GUI based on the board. Here is the code for shifting left:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">shift_left</span>(self):
         <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(self<span style="color:#f92672">.</span>board)):
