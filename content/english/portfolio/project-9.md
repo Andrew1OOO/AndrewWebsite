@@ -87,17 +87,17 @@ project_info:
 
     And here is what it looks like:
 
-![2048](images/images/20481.png)
+![2048](https://andrew1ooo.github.io/AndrewWebsite/images/images/20481.png)
 
 
     I also create a dark mode for the GUI:
 
-![2048](images/images/20482.png)
+![2048](https://andrew1ooo.github.io/AndrewWebsite/images/images/20482.png)
 
 
 ## Demonstration 
 
-![2048](images/images/20482.png) 
+![2048](https://andrew1ooo.github.io/AndrewWebsite/images/images/20482.png) 
 
 ## Future Plans
  - Add other themes

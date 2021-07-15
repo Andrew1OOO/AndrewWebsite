@@ -45,7 +45,7 @@ def repaint(board):
 
     And here is what it looks like printed to the screen:
 
-![Chess Implementation 1](images/images/chess1.png)
+![Chess Implementation 1](https://andrew1ooo.github.io/AndrewWebsite/images/images/chess1.png)
 
 
     The main bulk of the code is the same for both of them, like telling if they are in check, or which turn it is, or the driver code. For the GUI version I just went through the 2d array and "blited" as pygame calls it, or more elegently, rendered an piece to the screen for the specific piece in the array.
@@ -68,7 +68,7 @@ for i in range(len(board)):
 
     The GUI looks like this:
 
-![Chess Implementation 2](https://github.com/Andrew1OOO/static/images/chess2.png)
+![Chess Implementation 2](https://andrew1ooo.github.io/AndrewWebsite/images/images/chess2.png)
 
 ## Goals with this Project
  - get better at GUI building 
