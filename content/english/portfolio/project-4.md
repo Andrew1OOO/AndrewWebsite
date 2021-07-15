@@ -1,5 +1,5 @@
 ---
-title: "Suduko Backtracking"
+title: "Suduko Solver"
 date: 2019-08-20
 image: "images/portfolio/suduko.gif"
 categories: ["database"]

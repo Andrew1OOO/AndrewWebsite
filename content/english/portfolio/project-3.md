@@ -1,5 +1,5 @@
 ---
-title: "Sorting Visualization"
+title: "Sorting Visual"
 date: 2020-11-20
 image: "images/portfolio/sorting.gif"
 categories: ["Algorithms", "Visualizations", "Complexity"]
