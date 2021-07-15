@@ -23,29 +23,29 @@ project_info:
 
 Monte Carlo Simulations are used to find the best move in 2048. The Monte Carlo method is the idea of using a large number of random simulations of an experiment to gain insights into the experiment's end results. In other words, Monte Carlo simulations are a way to estimate what will happen in a given experiment without having to implement any specific algorithms. To implement this into 2048, I would cycle each move [left, right, up, down] for the amount of simulations given, so if 200 simulations were given, each move [left, right, up, down] would be simulated 50 times. After each move, I would then have the simulation move randomly until the game was over. So it would simulate 200 games before making a move, and score each first move and then at the end return the best first move, which would be the move in the actual game. Here is the code:
 
-    ```python
+```python
         
-        for inter, m in enumerate(possible_moves):
-            for i in range(int(amount)):
-                simulation = Board(mode)
-                simulation.board = copy.deepcopy(board)
+    for inter, m in enumerate(possible_moves):
+        for i in range(int(amount)):
+            simulation = Board(mode)
+            simulation.board = copy.deepcopy(board)
                 
-                simulation.move(m)
+            simulation.move(m)
+            simulation.add_block(Block(2 * random.randint(1,2), pg.Rect(0,0, 60, 60), mode))
+
+            while((simulation.game_over() == False)):
+                simulation.move(possible_moves[random.randint(0,3)])
                 simulation.add_block(Block(2 * random.randint(1,2), pg.Rect(0,0, 60, 60), mode))
 
-                while((simulation.game_over() == False)):
-                    simulation.move(possible_moves[random.randint(0,3)])
-                    simulation.add_block(Block(2 * random.randint(1,2), pg.Rect(0,0, 60, 60), mode))
 
+            simScore[inter] += simulation.score
+    topScore = max(simScore)
 
-                simScore[inter] += simulation.score
-        topScore = max(simScore)
+    index = simScore.index(topScore)
+    bestMove = possible_moves[index]
 
-        index = simScore.index(topScore)
-        bestMove = possible_moves[index]
-
-        return bestMove
-    ```
+    return bestMove
+```
 
 ***
 
