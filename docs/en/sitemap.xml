@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-9/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -17,7 +20,9 @@
                 hreflang="en"
                 href="https://andrew1ooo.github.io/AndrewWebsite/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -30,64 +35,104 @@
                 hreflang="en"
                 href="https://andrew1ooo.github.io/AndrewWebsite/categories/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/design/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/games/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/oop/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-8/</loc>
     <lastmod>2021-06-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/algorithms/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/complexity/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-3/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/visualizations/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-7/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/software/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-6/</loc>
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/access/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/art/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/database/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/design/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/development/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/robotics/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/sketch/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
     <xhtml:link
@@ -100,47 +145,78 @@
                 hreflang="en"
                 href="https://andrew1ooo.github.io/AndrewWebsite/tags/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-1/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-2/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-3/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-4/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-5/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-6/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/tags/web/</loc>
     <lastmod>2020-05-12T12:14:34+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/categories/database/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-4/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-5/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-1/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-2/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/about/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/banner/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://andrew1ooo.github.io/AndrewWebsite/contact/</loc>
   </url>
+  
 </urlset>

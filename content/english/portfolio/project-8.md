@@ -1,7 +1,7 @@
 ---
 title: "Chess"
 date: 2021-06-10
-image: "images/images/chess2.png"
+image: "images/portfolio/chess.gif"
 categories: ["design", "games"]
 description: "This is meta description."
 draft: false

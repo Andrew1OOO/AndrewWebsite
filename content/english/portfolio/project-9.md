@@ -1,7 +1,7 @@
 ---
 title: "2048 AI"
 date: 2021-07-10
-image: "images/images/20481.png"
+image: "images/portfolio/2048.gif"
 categories: ["design", "games", "OOP"]
 description: "This is meta description."
 draft: false
@@ -99,7 +99,7 @@ For the game I used pygame and Tkinter. Pygame was for the actual game and Tkint
 
 ## Final Product 
 
-![2048](https://andrew1ooo.github.io/AndrewWebsite/images/images/20482.png) 
+![2048](https://andrew1ooo.github.io/AndrewWebsite/images/portfolio/2048.gif) 
 
 ## Future Plans
  - Add other themes
