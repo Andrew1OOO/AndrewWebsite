@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Andrew Diab</copyright>
-    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://andrew1ooo.github.io/AndrewWebsite/categories/design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://andrew1ooo.github.io/AndrewWebsite/categories/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sorting Visualization</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-10/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-10/</guid>
+      <description>&lt;hr&gt;
+&lt;h1 id=&#34;description&#34;&gt;Description&lt;/h1&gt;</description>
+    </item>
+    
     <item>
       <title>2048 AI</title>
       <link>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-9/</link>
