@@ -1,7 +1,7 @@
 ---
 title: "Sorting Visualization"
 date: 2021-07-21
-image: "images/images/20481.png"
+image: "images/images/sorting.png"
 categories: ["design", "OOP"]
 description: "This is meta description."
 draft: false
