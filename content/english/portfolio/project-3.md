@@ -21,7 +21,7 @@ project_info:
 
 ## Implementation
 
-  The implementation of the project was pretty simple, we each had a sorting algorithm or 2 and then it would output the complexity and time taken a randomly generated array at a user inputted size in a text based way. For the quicksort, used a recursive method and follow the usually steps for a quicksort algorithm. The main code was made with arraylists so there was no need to return the sorted value as the parameter was passed by reference, meaning the value passed as the parameter would change when the the value in the method was changed. 
+  The implementation of the project was pretty simple, we each had a sorting algorithm or 2 and then it would output the complexity and time taken a randomly generated array at a user inputted size in a text based way. For the `quicksort`, I used a recursive method and followed the usually steps for a quicksort algorithm. The main code was made with arraylists so there was no need to return the sorted value as the parameter was passed by reference, meaning the value passed as the parameter would change when the the value in the method was changed. 
 
   The code below is the code for the QuickSort.
   ```java
@@ -50,7 +50,7 @@ project_info:
   ```
 
 ## Conclusion
-  This project was not a super difficult project, and I actually did not do it by myself. I did the quick sort and helped implement everything together, but my classmates work on some of the other sorts. This was just an exercise to understand the algorithms and see how each one compares to another. (Coded in Java)
+  This project was not a super difficult project, and I actually did not do it by myself. I did the quick sort and helped implement everything together, but my classmates worked on some of the other sorts. This was just an exercise to understand the algorithms and see how each one compares to another. `(Coded in Java)`
 
 ***
 

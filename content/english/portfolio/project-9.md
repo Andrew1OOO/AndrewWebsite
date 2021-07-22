@@ -11,17 +11,17 @@ project_info:
   content: "Software Developer"
 - name: "Chess"
   icon: "fas fa-link"
-  content: "https://github.com/Andrew1OOO/Games"
+  content: "https://github.com/Andrew1OOO"
 
 -----------
 
 # Description
 <!--more-->
-2048 is a tile/board game in which the user moves tiles back, forth, and vertically around a 4x4 grid to create the number 2048. The numbers going up by 2^n, where n is the each merge. So to get 8 you have to merge 3 times, 2-2=4-4=8. With this project I decided to recreate the game, as well as create an "AI" for it. The AI uses Monte Carlo Simulation to quickly get to 2048.
+2048 is a tile/board game in which the user moves tiles back, forth, and vertically around a `4x4` grid to create the number `2048`. The numbers going up by `2^n`, where n is the amount of merges. So to get 8 you have to merge 3 times, `2-2=4`,`4-4=8`. With this project I decided to recreate the game, as well as create an `AI` for it. The AI uses Monte Carlo Simulation to quickly get to `2048`.
 
 ## Monte Carlo Simulations
 
-Monte Carlo Simulations are used to find the best move in 2048. The Monte Carlo method is the idea of using a large number of random simulations of an experiment to gain insights into the experiment's end results. In other words, Monte Carlo simulations are a way to estimate what will happen in a given experiment without having to implement any specific algorithms. To implement this into 2048, I would cycle each move [left, right, up, down] for the amount of simulations given, so if 200 simulations were given, each move [left, right, up, down] would be simulated 50 times. After each move, I would then have the simulation move randomly until the game was over. So it would simulate 200 games before making a move, and score each first move and then at the end return the best first move, which would be the move in the actual game. 
+Monte Carlo Simulations are used to find the best move in `2048`. The Monte Carlo method is the idea of using a large number of random simulations of an experiment to gain insights into the experiment`s end results. In other words, Monte Carlo simulations are a way to estimate what will happen in a given experiment without having to implement any specific algorithms. To implement this into `2048`, I would cycle each move [left, right, up, down] for the amount of simulations given, so if `200` simulations were given, each move [left, right, up, down] would be simulated `50` times. After each move, I would then have the simulation move randomly until the game was over. So it would simulate `200` games before making a move, and score each first move and then at the end return the best first move, which would be the move in the actual game. 
 
 Here is the code:
 

@@ -11,7 +11,7 @@ project_info:
   content: "Software Developer"
 - name: "Chess"
   icon: "fas fa-link"
-  content: "https://github.com/Andrew1OOO/Games"
+  content: "https://github.com/Andrew1OOO"
 
 -----------
 

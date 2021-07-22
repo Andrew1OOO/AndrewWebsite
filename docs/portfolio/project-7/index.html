@@ -185,9 +185,60 @@
     <span style="color:#f92672">}</span>
 
 </code></pre></div><p>The hardest operation to think about was division. Our solution for division involved converting each number into a smaller decimal double, so a large number such as 456789 would be represented as 4.56789. This worked, although their is a bit of precision loss as the numbers are not staying completely consistent throughout.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">division
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">private</span> String <span style="color:#a6e22e">rawDivide</span><span style="color:#f92672">(</span><span style="color:#66d9ef">long</span><span style="color:#f92672">[]</span> a<span style="color:#f92672">,</span> <span style="color:#66d9ef">long</span><span style="color:#f92672">[]</span> b<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        <span style="color:#66d9ef">double</span> aDouble <span style="color:#f92672">=</span> Math<span style="color:#f92672">.</span><span style="color:#a6e22e">abs</span><span style="color:#f92672">(</span>toDouble<span style="color:#f92672">(</span>a<span style="color:#f92672">))*-</span>1<span style="color:#f92672">;</span>
+        <span style="color:#66d9ef">double</span> bDouble <span style="color:#f92672">=</span> Math<span style="color:#f92672">.</span><span style="color:#a6e22e">abs</span><span style="color:#f92672">(</span>toDouble<span style="color:#f92672">(</span>b<span style="color:#f92672">))*-</span>1<span style="color:#f92672">;</span>
+        <span style="color:#66d9ef">double</span> sum <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
+        <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>bDouble <span style="color:#f92672">&lt;</span> aDouble<span style="color:#f92672">){</span> <span style="color:#75715e">// if the first number is less than the seconds the output will always be 0
+</span><span style="color:#75715e"></span>            sum <span style="color:#f92672">=</span>  0<span style="color:#f92672">.</span><span style="color:#a6e22e">0</span><span style="color:#f92672">;</span>
+        <span style="color:#f92672">}</span>
+        <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>bDouble <span style="color:#f92672">&gt;</span> aDouble <span style="color:#f92672">&amp;&amp;</span> b<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span> <span style="color:#f92672">==</span> a<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">){</span> <span style="color:#75715e">// this is for a case, if the first number is greater than the second and the lengths are the same meaning the output will be very small
+</span><span style="color:#75715e"></span>            sum <span style="color:#f92672">=</span> Math<span style="color:#f92672">.</span><span style="color:#a6e22e">floor</span><span style="color:#f92672">(</span>aDouble<span style="color:#f92672">/</span>bDouble<span style="color:#f92672">);</span>
+        <span style="color:#f92672">}</span>
+        <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>bDouble <span style="color:#f92672">&gt;</span> aDouble <span style="color:#f92672">&amp;&amp;</span> b<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span> <span style="color:#f92672">!=</span> a<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">){</span> <span style="color:#75715e">// this is for a case, if the first number is greater than the second, but lengths are not the same meaning the output will be larger than 10
+</span><span style="color:#75715e"></span>            <span style="color:#66d9ef">int</span> periodIndex <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> <span style="color:#75715e">// point in the string where the &#39;.&#39; is 
+</span><span style="color:#75715e"></span>            <span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> x <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[</span>a<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">];</span> <span style="color:#75715e">// array of all the numbers in the string
+</span><span style="color:#75715e"></span>            <span style="color:#66d9ef">int</span> difference <span style="color:#f92672">=</span> Math<span style="color:#f92672">.</span><span style="color:#a6e22e">abs</span><span style="color:#f92672">(</span>b<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span> <span style="color:#f92672">-</span> a<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">);</span> <span style="color:#75715e">// the difference in size between the 2 numbers, the difference for 345 and 3 would be 2
+</span><span style="color:#75715e"></span>            sum <span style="color:#f92672">=</span> aDouble<span style="color:#f92672">/</span>bDouble<span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
+            String y <span style="color:#f92672">=</span> Double<span style="color:#f92672">.</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">(</span>sum<span style="color:#f92672">);</span>
+            <span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> y<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">()</span> <span style="color:#f92672">;</span> i<span style="color:#f92672">++){</span> <span style="color:#75715e">// adding the values of the string into the array
+</span><span style="color:#75715e"></span>                <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>y<span style="color:#f92672">.</span><span style="color:#a6e22e">charAt</span><span style="color:#f92672">(</span>i<span style="color:#f92672">)</span> <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#39;.&#39;</span><span style="color:#f92672">){</span> <span style="color:#75715e">// if it is not a &#39;.&#39; add the numbers
+</span><span style="color:#75715e"></span>                    x<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> Integer<span style="color:#f92672">.</span><span style="color:#a6e22e">parseInt</span><span style="color:#f92672">(</span>String<span style="color:#f92672">.</span><span style="color:#a6e22e">valueOf</span><span style="color:#f92672">(</span>y<span style="color:#f92672">.</span><span style="color:#a6e22e">charAt</span><span style="color:#f92672">(</span>i<span style="color:#f92672">)));</span>
+                <span style="color:#f92672">}</span>
+                <span style="color:#66d9ef">else</span><span style="color:#f92672">{</span> <span style="color:#75715e">// if it is a &#39;.&#39; add a number that we can diffentiate from the other numbers, such as any number &gt;= 10
+</span><span style="color:#75715e"></span>                    periodIndex <span style="color:#f92672">=</span> i<span style="color:#f92672">;</span>
+                    x<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> 10<span style="color:#f92672">;</span>
+                <span style="color:#f92672">}</span>
+            <span style="color:#f92672">}</span>
+            <span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> periodIndex<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> y<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">();</span> i<span style="color:#f92672">++){</span> <span style="color:#75715e">// moveing the period over by the amount of difference
+</span><span style="color:#75715e"></span>                <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>i <span style="color:#f92672">-</span> periodIndex <span style="color:#f92672">==</span> difference<span style="color:#f92672">){</span> 
+                    <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
+                <span style="color:#f92672">}</span>
+                <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>x<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">==</span> 10<span style="color:#f92672">){</span> <span style="color:#75715e">// if the number is 10, if it is the period, move the period over to the right one
+</span><span style="color:#75715e"></span>                    k <span style="color:#f92672">=</span> x<span style="color:#f92672">[</span>i<span style="color:#f92672">];</span>
+                    x<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> x<span style="color:#f92672">[</span>i<span style="color:#f92672">+</span>1<span style="color:#f92672">];</span>
+                    x<span style="color:#f92672">[</span>i<span style="color:#f92672">+</span>1<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> k<span style="color:#f92672">;</span>
+                <span style="color:#f92672">}</span>
+            <span style="color:#f92672">}</span>
+            String quotient <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> y<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">();</span> i<span style="color:#f92672">++){</span> <span style="color:#75715e">//adding the array back into a string
+</span><span style="color:#75715e"></span>                <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>x<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">&lt;</span> 10<span style="color:#f92672">){</span>
+                    quotient <span style="color:#f92672">+=</span> Integer<span style="color:#f92672">.</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">(</span>x<span style="color:#f92672">[</span>i<span style="color:#f92672">]);</span>
+                <span style="color:#f92672">}</span>
+                <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>x<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">==</span> 10<span style="color:#f92672">){</span> <span style="color:#75715e">// change the differentiating value back to a &#39;.&#39;
+</span><span style="color:#75715e"></span>                    quotient <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;.&#34;</span><span style="color:#f92672">;</span>
+                <span style="color:#f92672">}</span>
+            <span style="color:#f92672">}</span>
+        <span style="color:#66d9ef">return</span> quotient<span style="color:#f92672">;</span>
+        <span style="color:#f92672">}</span>
+        <span style="color:#66d9ef">else</span><span style="color:#f92672">{</span> <span style="color:#75715e">// if the numbers are the same the return will always be 1
+</span><span style="color:#75715e"></span>            sum <span style="color:#f92672">=</span>  1<span style="color:#f92672">.</span><span style="color:#a6e22e">0</span><span style="color:#f92672">;</span>
+        <span style="color:#f92672">}</span>
+        <span style="color:#66d9ef">return</span> Double<span style="color:#f92672">.</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">(</span>sum<span style="color:#f92672">);</span> <span style="color:#75715e">// return the string of the sum we had figured out
+</span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
 </code></pre></div><h2 id="conclusion">Conclusion</h2>
-<p>This project was really hard as it made us(Rayyan and I were partners) think about the lower level of operations between numbers. It also forced us to think about the efficiency as the numbers were too long to take an inefficient approach.</p>
+<p>This project was really hard as it made us(Rayyan and I) think about the lower level of operations between numbers. It also forced us to think about the efficiency as the numbers were too long to take an inefficient approach.</p>
 <p>You can find my code <a href="https://github.com/">here</a></p>
 </div>
         </div>
@@ -222,7 +273,7 @@
              <i class="mt-1 fas fa-link h2"></i>
               <div class="ml-3">
                 <h4>Mathmatical Expression Evaluator</h4>
-                <div class="content"><a href="https://github.com/Andrew1OOO/Calculator">https://github.com/Andrew1OOO/Calculator</a></div>
+                <div class="content"><a href="https://github.com/Andrew1OOO">https://github.com/Andrew1OOO</a></div>
               </div>
             </li>
             

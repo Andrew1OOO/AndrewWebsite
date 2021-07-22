@@ -61,7 +61,7 @@
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-6/</guid>
-      <description>Description This project is a mathematical String evalutor. It takes in expression as a string, &amp;ldquo;(3+3)/10*40+5&amp;rdquo;, and evalutates it to the correct answer, using correct order of operations.</description>
+      <description>Description This project is a mathematical String evalutor. It takes in expression as a string, (3+3)/10*40+5, and evalutates it to the correct answer, using correct order of operations.</description>
     </item>
     
     <item>
@@ -70,7 +70,7 @@
       <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-4/</guid>
-      <description>Description Sudoku is a logic-based, combinatorial number-placement puzzle. In classic sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid (also called &amp;ldquo;boxes&amp;rdquo;, &amp;ldquo;blocks&amp;rdquo;, or &amp;ldquo;regions&amp;rdquo;) contain all of the digits from 1 to 9.</description>
+      <description>Description Sudoku is a logic-based, combinatorial number-placement puzzle. In classic sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid (also called boxes, blocks, or regions) contain all of the digits from 1 to 9.</description>
     </item>
     
     <item>

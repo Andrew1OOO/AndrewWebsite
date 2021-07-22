@@ -32,7 +32,7 @@
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-6/</guid>
-      <description>Description This project is a mathematical String evalutor. It takes in expression as a string, &amp;ldquo;(3+3)/10*40+5&amp;rdquo;, and evalutates it to the correct answer, using correct order of operations.</description>
+      <description>Description This project is a mathematical String evalutor. It takes in expression as a string, (3+3)/10*40+5, and evalutates it to the correct answer, using correct order of operations.</description>
     </item>
     
   </channel>

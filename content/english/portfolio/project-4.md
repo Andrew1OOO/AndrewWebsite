@@ -16,10 +16,10 @@ project_info:
 
 # Description
 
-  Sudoku is a logic-based, combinatorial number-placement puzzle. In classic sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid (also called "boxes", "blocks", or "regions") contain all of the digits from 1 to 9. To have a computer solve a sudoku board, I used the method of backtracking. Backtracking is a general algorithm for finding all solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate as soon as it determines that the candidate cannot possibly be completed to a valid solution. 
+  Sudoku is a logic-based, combinatorial number-placement puzzle. In classic sudoku, the objective is to fill a `9×9` grid with digits so that each column, each row, and each of the nine `3×3` subgrids that compose the grid (also called `boxes`, `blocks`, or `regions`) contain all of the digits from `1` to `9`. To have a computer solve a sudoku board, I used the method of backtracking. Backtracking is a general algorithm for finding all solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate as soon as it determines that the candidate cannot possibly be completed to a valid solution. 
 
 ## Implementation
-  These are the main function used in the code. This is pretty simple to follow, the backTrack(board) function finds the next possible empty space, then puts the numbers 1-10 in that position, seeing which numbers work. If you get to a point where the number can't work, then it goes back through, backtracking its steps. 
+  These are the main function used in the code. This is pretty simple to follow, the backTrack(board) function finds the next possible empty space, then puts the numbers `1`-`10` in that position, seeing which numbers work. If you get to a point where the number can't work, then it goes back through, backtracking its steps. 
   ```python
     def backTrack(board):
       find = find_empty(board)
@@ -53,6 +53,6 @@ project_info:
 
   ```
 ## Conclusion
-  This was a pretty simple project, I didn't have a bit of trouble with the check_number method, but once that was sorted, I thought it was pretty smooth.
+  This was a pretty simple project, I did have a bit of trouble with the check_number method, but once that was sorted, I thought it was pretty smooth.
 
 You can find my code [here](https://github.com/Andrew1OOO/Andrew-Projects/blob/master/TicTacToe.Java)

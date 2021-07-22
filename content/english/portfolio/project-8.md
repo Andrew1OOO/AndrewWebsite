@@ -11,7 +11,7 @@ project_info:
   content: "Software Developer"
 - name: "Chess"
   icon: "fas fa-link"
-  content: "https://github.com/Andrew1OOO/Games"
+  content: "https://github.com/Andrew1OOO"
 
 ---
 
@@ -26,7 +26,7 @@ For this project I recreated the well known board game chess in python. I made 2
 
 ## Implementation
 
-  For the first implemenation, called 'chess.py', I used simple print to screen methods which would be seen in the terminal. However the pieces would still look like pieces as I used the chess unicode characters, ♔. I also used the bcolors ASCII escape codes, which allow for a string to change colors when printed. Here is some of the code that utilises these features:
+  For the first implemenation, called `chess.py`, I used simple print to screen methods which would be seen in the terminal. However the pieces would still look like pieces as I used the chess unicode characters, `♔`. I also used the bcolors ASCII escape codes, which allow for a string to change colors when printed. Here is some of the code that utilises these features:
 
 ```python
 def print_b(board):
@@ -48,7 +48,7 @@ def repaint(board):
 ![Chess Implementation 1](https://andrew1ooo.github.io/AndrewWebsite/images/images/chess1.png)
 
 
-    The main bulk of the code is the same for both of them, like telling if they are in check, or which turn it is, or the driver code. For the GUI version I just went through the 2d array and "blited" as pygame calls it, or more elegently, rendered an piece to the screen for the specific piece in the array.
+    The main bulk of the code is the same for both of them, like telling if they are in check, or which turn it is, or the driver code. For the GUI version I just went through the 2d array and `blited` as pygame calls it, or more elegently, rendered an piece to the screen for the specific piece in the array.
 
     Some of that code looks like this:
 
