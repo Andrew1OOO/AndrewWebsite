@@ -173,10 +173,8 @@
 </code></pre></div><pre><code>And here is what it looks like printed to the screen:
 </code></pre>
 <p><img src="https://andrew1ooo.github.io/AndrewWebsite/images/images/chess1.png" alt="Chess Implementation 1"></p>
-<pre><code>The main bulk of the code is the same for both of them, like telling if they are in check, or which turn it is, or the driver code. For the GUI version I just went through the 2d array and `blited` as pygame calls it, or more elegently, rendered an piece to the screen for the specific piece in the array.
-
-Some of that code looks like this:
-</code></pre>
+<p>The main bulk of the code is the same for both of them, like telling if they are in check, or which turn it is, or the driver code. For the GUI version I just went through the 2d array and <code>blited</code> as pygame calls it, or more elegently, rendered an piece to the screen for the specific piece in the array.</p>
+<p>Some of that code looks like this:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(board)):
         <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(len(board[<span style="color:#ae81ff">0</span>])):
             <span style="color:#66d9ef">if</span>(board[i][j] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;♙&#34;</span>):

@@ -48,9 +48,9 @@ def repaint(board):
 ![Chess Implementation 1](https://andrew1ooo.github.io/AndrewWebsite/images/images/chess1.png)
 
 
-    The main bulk of the code is the same for both of them, like telling if they are in check, or which turn it is, or the driver code. For the GUI version I just went through the 2d array and `blited` as pygame calls it, or more elegently, rendered an piece to the screen for the specific piece in the array.
+The main bulk of the code is the same for both of them, like telling if they are in check, or which turn it is, or the driver code. For the GUI version I just went through the 2d array and `blited` as pygame calls it, or more elegently, rendered an piece to the screen for the specific piece in the array.
 
-    Some of that code looks like this:
+Some of that code looks like this:
 
 ```python
 for i in range(len(board)):

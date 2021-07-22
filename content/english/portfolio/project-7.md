@@ -16,7 +16,7 @@ project_info:
 ---
 
 # Description
-This proejct is a copy of the actual java library, Big Integer. This library is able to handle numbers greater than what is supported by Java's int and double types. Although without operations the number is quite useless, so the Class must also be able to do basic operations, such as +, -, *, /, %. This was the tough bit. 
+This proejct is a copy of the actual java library, Big Integer. This library is able to handle numbers greater than what is supported by Java's int and double types. Although without operations the number is quite useless, so the Class must also be able to do basic operations, such as `+`, `-`, `*`, `/`, `%`. This was the tough bit. 
 
 ## Implementation
 The implementation for each operation would be different. We decided to represent the large number as an long array. This was probably not the greatest strategy to start with as it provided a few memory issues down the line, instead we should have used bytes to decrease the amount of memory used. 
