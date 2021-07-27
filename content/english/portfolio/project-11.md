@@ -1,7 +1,7 @@
 ---
 title: "Pathfinding"
 date: 2021-07-27
-image: "images/images/astar1.png"
+image: "images/images/astar2.gif"
 categories: ["design", "OOP","algorithms"]
 description: "This is meta description."
 draft: false
@@ -166,11 +166,11 @@ def astar(self, diagonals, screen):
 
 Dijkstra's: 
 
-![Dijkstra](https://andrew1ooo.github.io/AndrewWebsite/images/portfolio/dijkstra.png)
+![Dijkstra](https://andrew1ooo.github.io/AndrewWebsite/images/portfolio/dijkstra.gif)
 
 A* Star: 
 
-![astar](https://andrew1ooo.github.io/AndrewWebsite/images/portfolio/Astar.png)
+![astar](https://andrew1ooo.github.io/AndrewWebsite/images/images/astar2.gif)
 ## Future Plans
  - Add more pathfinding algorithms, BFS
  - Add more customization like buttons for changing the size of the graph, erasable walls
