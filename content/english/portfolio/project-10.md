@@ -1,7 +1,7 @@
 ---
 title: "Sorting Visualization"
 date: 2021-07-21
-image: "images/images/sorting.png"
+image: "images/images/sorting.gif"
 categories: ["design", "OOP"]
 description: "This is meta description."
 draft: false
@@ -76,7 +76,21 @@ def paint(self):
 ```
 ## All Sorting Algorithms on the same list
 
-<!--show a gif of each algorithm on the same list-->
+Bubble Sort:
+
+![Bubble](https://andrew1ooo.github.io/AndrewWebsite/images/portfolio/bubble.gif)
+
+Quick Sort:
+
+![Quick](https://andrew1ooo.github.io/AndrewWebsite/images/portfolio/quicksort.gif)
+
+Insertion Sort:
+
+![Insertion](https://andrew1ooo.github.io/AndrewWebsite/images/portfolio/insertion.gif)
+
+Selection Sort:
+
+![Selection](https://andrew1ooo.github.io/AndrewWebsite/images/portfolio/selection.gif)
 
 ## Future Plans
  - Add more sorting algorithms, merge sort, heap sort
