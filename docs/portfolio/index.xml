@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Andrew Diab</copyright>
-    <lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Feb 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://andrew1ooo.github.io/AndrewWebsite/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rubik&#39;s Cube Solver</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-12/</link>
+      <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-12/</guid>
+      <description>Description This is a Rubik&amp;rsquo;s Cube solver app, which scans the Rubik&amp;rsquo;s cube usig the webcam from the built-in one in the computer.</description>
+    </item>
     
     <item>
       <title>Pathfinding</title>
@@ -20,15 +29,6 @@
       <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-11/</guid>
       <description>&lt;hr&gt;
 &lt;h1 id=&#34;description&#34;&gt;Description&lt;/h1&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rubik&#39;s Cube Solver</title>
-      <link>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-12/</link>
-      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://andrew1ooo.github.io/AndrewWebsite/portfolio/project-12/</guid>
-      <description>Description This is a Rubik&amp;rsquo;s Cube solver app, which scans the Rubik&amp;rsquo;s cube usig the webcam from the built-in one in the computer.</description>
     </item>
     
     <item>

@@ -1,7 +1,7 @@
 ---
 title: "Rubik's Cube Solver"
-date: 2021-07-27
-image:
+date: 2022-02-20
+image: "images/images/cube.gif"
 categories: ["design", "OOP","algorithms"]
 description: "This is meta description."
 draft: false
