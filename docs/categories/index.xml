@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Andrew Diab</title>
+    <link>https://andrew1ooo.github.io/AndrewWebsite/categories/</link>
+    <description>Recent content in Categories on Andrew Diab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Andrew Diab</copyright>
+    <lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://andrew1ooo.github.io/AndrewWebsite/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>algorithms</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/categories/algorithms/</link>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/categories/design/</link>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OOP</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/categories/oop/</link>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/oop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>games</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/categories/games/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/games/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complexity</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/categories/complexity/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/complexity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualizations</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/categories/visualizations/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/visualizations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/categories/software/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/categories/database/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/categories/database/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

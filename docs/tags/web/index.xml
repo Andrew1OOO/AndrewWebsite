@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web on Andrew Diab</title>
+    <link>https://andrew1ooo.github.io/AndrewWebsite/tags/web/</link>
+    <description>Recent content in web on Andrew Diab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Andrew Diab</copyright>
+    <lastBuildDate>Tue, 12 May 2020 12:14:34 +0600</lastBuildDate>
+    
+	<atom:link href="https://andrew1ooo.github.io/AndrewWebsite/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>This Is A Simple Blog Post</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-3/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-3/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>This Is A Simple Blog Post</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-6/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/robotics/blog-6/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+  </channel>
+</rss>

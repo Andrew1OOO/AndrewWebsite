@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Andrew Diab</title>
+    <link>https://andrew1ooo.github.io/AndrewWebsite/tags/</link>
+    <description>Recent content in Tags on Andrew Diab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Andrew Diab</copyright>
+    <lastBuildDate>Tue, 12 May 2020 12:14:34 +0600</lastBuildDate>
+    
+	<atom:link href="https://andrew1ooo.github.io/AndrewWebsite/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>access</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/tags/access/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/tags/access/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>art</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/tags/art/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/tags/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/tags/database/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/tags/design/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/tags/development/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sketch</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/tags/sketch/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/tags/sketch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://andrew1ooo.github.io/AndrewWebsite/tags/web/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://andrew1ooo.github.io/AndrewWebsite/tags/web/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
