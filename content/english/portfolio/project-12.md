@@ -21,7 +21,7 @@ This is a Rubik's Cube solver app, which scans the Rubik's cube usig the webcam 
 
 ## OpenCV Scanning
 
-To simpilfy the inputting of the cube for the user, I decided scanning using the built-in camera on a laptop. To do this, I used the package `OpenCV`, as it gave an easy way to take camera input and check the colors of that input. Implemeting this however was much more difficult than orgially thought. There were countless issues, but the most persistent was the different colors depending on the `lighting` and `reflection`. 
+To simpilfy the inputting of the cube for the user, I decided scanning using the built-in camera on a laptop. To do this, I used the package `OpenCV`, as it gave an easy way to take camera input and check the colors of that input. Implemeting this however was much more difficult than orgially thought. There were countless issues, but the most persistent was the different colors depending on the `lighting` and `reflection`.
 
 ```py
 def color_detect(h,s,v):
@@ -94,6 +94,11 @@ To handle the cube I used a class. However, the main state is held in the dictio
 
 Solving is pretty simple, I just used a built api that takes a string as the parameter and outputs the solution.
 
+## Demonstation
+
+![Scanning the Cube in Using OpenCV](https://andrew1ooo.github.io/AndrewWebsite/images/portfolio/scan.gif)
+
+
 # Conclusion
 
-This was a very hard project for me, I was not familiar with color detection or cube solving before starting. I still think I need more work with `OpenCv`, but it was a good first step to help get used to the basics. 
+This was a very hard project for me, I was not familiar with color detection or cube solving before starting. I still think I need more work with `OpenCv`, but it was a good first step to help get used to the basics.
