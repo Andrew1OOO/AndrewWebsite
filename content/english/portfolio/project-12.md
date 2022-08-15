@@ -19,7 +19,7 @@ project_info:
 
 This is a Rubik's Cube solver app, which scans the Rubik's cube usig the webcam from the built-in one in the computer. To solve the cube it uses the `cube` api in python and to scan the cube in it uses `OpenCV`. For this project, I used python. Python gives easy use of GUI components that look nice while also appealing to the user. It also has many useful packages that help with the input of a Rubix Cube and algorithms to solve it, such as OpenCV, NumPy, and scipy. OpenCV helps with inputting the cube and NumPy/scipy helps with the math used to find the solution. This sets the project apart from similar software on the computer, which complicates the input process with increased steps as they don’t use a webcam.
 
-## OpenCV Scanning
+# OpenCV Scanning
 
 To simpilfy the inputting of the cube for the user, I decided scanning using the built-in camera on a laptop. To do this, I used the package `OpenCV`, as it gave an easy way to take camera input and check the colors of that input. Implemeting this however was much more difficult than orgially thought. There were countless issues, but the most persistent was the different colors depending on the `lighting` and `reflection`.
 
@@ -51,7 +51,7 @@ def color_detect(h,s,v):
 
 This code handles most of the color dectection, as it checks the `(h,s,v)` values from camera. It then filters those value into a color string which is returned back through the function. However because `(h,s,v)` represets the hue, saturation, and value, and the hue/saturation both change depending on reflation it gives a different value in different situations. 
 
-## Cube Handling
+# Cube Handling
 
 ```py
 class cube():
@@ -79,7 +79,7 @@ class cube():
 ```
 To handle the cube I used a class. However, the main state is held in the dictionary `state`, where each key(`up`, `right`, `...`) is one of the side of the cube. If I wanted to change the state of one of the upper side I can simply call; state[`up`][x] = `y`.
 
-## Cube Solving
+# Cube Solving
 
 ```py
     def solve(self, s):
@@ -94,9 +94,17 @@ To handle the cube I used a class. However, the main state is held in the dictio
 
 Solving is pretty simple, I just used a built api that takes a string as the parameter and outputs the solution.
 
-## Demonstation
+# Demonstation
+
+### Scanning the Cube in
 
 ![Scanning the Cube in Using OpenCV](https://andrew1ooo.github.io/AndrewWebsite/images/portfolio/scan.gif)
+
+### Solving the Cube
+
+Here is a short gif of how the program outputs the solution. It gives the user cube notation instructions for how to solve it in the command line. From there the user can then follow those steps to accurate complete the rubix cube:
+
+![Solving the Cube](https://andrew1ooo.github.io/AndrewWebsite/images/portfolio/solveCube.gif)
 
 
 # Conclusion

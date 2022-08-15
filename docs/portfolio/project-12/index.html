@@ -155,7 +155,7 @@
           <div class="content"><hr>
 <h1 id="description">Description</h1>
 <p>This is a Rubik&rsquo;s Cube solver app, which scans the Rubik&rsquo;s cube usig the webcam from the built-in one in the computer. To solve the cube it uses the <code>cube</code> api in python and to scan the cube in it uses <code>OpenCV</code>. For this project, I used python. Python gives easy use of GUI components that look nice while also appealing to the user. It also has many useful packages that help with the input of a Rubix Cube and algorithms to solve it, such as OpenCV, NumPy, and scipy. OpenCV helps with inputting the cube and NumPy/scipy helps with the math used to find the solution. This sets the project apart from similar software on the computer, which complicates the input process with increased steps as they don’t use a webcam.</p>
-<h2 id="opencv-scanning">OpenCV Scanning</h2>
+<h1 id="opencv-scanning">OpenCV Scanning</h1>
 <p>To simpilfy the inputting of the cube for the user, I decided scanning using the built-in camera on a laptop. To do this, I used the package <code>OpenCV</code>, as it gave an easy way to take camera input and check the colors of that input. Implemeting this however was much more difficult than orgially thought. There were countless issues, but the most persistent was the different colors depending on the <code>lighting</code> and <code>reflection</code>.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">color_detect</span>(h,s,v):
     <span style="color:#75715e"># print(h,s,v)</span>
@@ -181,7 +181,7 @@
 
     <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#39;white&#39;</span>
 </code></pre></div><p>This code handles most of the color dectection, as it checks the <code>(h,s,v)</code> values from camera. It then filters those value into a color string which is returned back through the function. However because <code>(h,s,v)</code> represets the hue, saturation, and value, and the hue/saturation both change depending on reflation it gives a different value in different situations.</p>
-<h2 id="cube-handling">Cube Handling</h2>
+<h1 id="cube-handling">Cube Handling</h1>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">cube</span>():
 
     <span style="color:#66d9ef">def</span> __init__(self):
@@ -205,7 +205,7 @@
 
 
 </code></pre></div><p>To handle the cube I used a class. However, the main state is held in the dictionary <code>state</code>, where each key(<code>up</code>, <code>right</code>, <code>...</code>) is one of the side of the cube. If I wanted to change the state of one of the upper side I can simply call; state[<code>up</code>][x] = <code>y</code>.</p>
-<h2 id="cube-solving">Cube Solving</h2>
+<h1 id="cube-solving">Cube Solving</h1>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">solve</span>(self, s):
         r <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
         <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> s:
@@ -215,8 +215,12 @@
         <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;answer:&#34;</span>, Cube<span style="color:#f92672">.</span>solve(<span style="color:#e6db74">&#39;r&#39;</span>))
         <span style="color:#66d9ef">return</span> Cube<span style="color:#f92672">.</span>solve(<span style="color:#e6db74">&#39;r&#39;</span>)
 </code></pre></div><p>Solving is pretty simple, I just used a built api that takes a string as the parameter and outputs the solution.</p>
-<h2 id="demonstation">Demonstation</h2>
+<h1 id="demonstation">Demonstation</h1>
+<h3 id="scanning-the-cube-in">Scanning the Cube in</h3>
 <p><img src="https://andrew1ooo.github.io/AndrewWebsite/images/portfolio/scan.gif" alt="Scanning the Cube in Using OpenCV"></p>
+<h3 id="solving-the-cube">Solving the Cube</h3>
+<p>Here is a short gif of how the program outputs the solution. It gives the user cube notation instructions for how to solve it in the command line. From there the user can then follow those steps to accurate complete the rubix cube:</p>
+<p><img src="https://andrew1ooo.github.io/AndrewWebsite/images/portfolio/solveCube.gif" alt="Solving the Cube"></p>
 <h1 id="conclusion">Conclusion</h1>
 <p>This was a very hard project for me, I was not familiar with color detection or cube solving before starting. I still think I need more work with <code>OpenCv</code>, but it was a good first step to help get used to the basics.</p>
 </div>
