@@ -110,3 +110,8 @@ Here is a short gif of how the program outputs the solution. It gives the user c
 # Conclusion
 
 This was a very hard project for me, I was not familiar with color detection or cube solving before starting. I still think I need more work with `OpenCv`, but it was a good first step to help get used to the basics.
+
+
+
+You can find my Github link for the code [here](https://github.com/Andrew1OOO/Andrew-Projects/blob/master/OthelloAI.py)
+***

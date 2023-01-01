@@ -15,6 +15,13 @@ experience:
   enable : true
   title : "EXPERIENCE"
   experience_list:
+
+    # experience item loop
+    - name : "Currently Studying Engineering in College "
+      company : "Purdue University "
+      duration : "2022-2026"
+      content : "First Year Engineering Student at Purdue University "
+
     # experience item loop
     - name : "College Level Computer Science Classes"
       company : "Windermere Prep"
@@ -35,11 +42,11 @@ skill:
   skill_list:
     # skill item loop
     - name : "Software Developer"
-      percentage : "60%"
+      percentage : ""
       
     # skill item loop
     - name : "Robotics Engineer"
-      percentage : "50%"
+      percentage : ""
       
 
 
@@ -49,21 +56,22 @@ custom_class: ""
 custom_attributes: "" 
 custom_css: ""
 ---
-I am Andrew Diab. I am a Student at WPS(Windermere Prepartory School) who has been interesting in programming since I took my first computer science class in 9th grade. Ever since that class I have wanted to go further with my studies in this field and because my school did not offer AP computer science, I decided to take it online the following year. I am currently enrolled in IB Computer Science(HL). I have also been an officer of my school's programming club, since my sophmore year, on top of that President of Robotics for FRC team 1649. 
+I am Andrew Diab. I am currently studying computer engineering and arabic at Purdue University in Indiana. Many of the projects showcases here have been made when I was in highschool. In highschool I was an officer of my school's programming club, President of FRC Robotics team 1649, and founder of the aerospace engineering club. In my time as a freshman at Purdue, I join the ARC robotics club working on some very interesting robotics problems such as a synthetic hand, autonomous rocket league car, and a chess ai. 
 
-On this website you can find a few of the project I thought were "cool" but also showed a high level of thinking required for programming. You may also notice that there are robotics projects aswell, these are a combintation of projects that I have done in my independent study as well as project done in robotics class. 
+On this website you can find a many of the project I have created throughout the year, including a rubix cube ai, a pathfinding visualization of A* and Dkjstras algorithm, and lots more. You may also notice that there are robotics projects aswell, these are a combintation of projects that I have completed with physical hardware to go along with the software. 
 
 Here is a short list of my CS experience:
 - Languages: Java, Python3
-- Object Oriented Programming and Polymorphism
-- Python3 Libraries
+- Object Oriented Programming, Polymorphism, and Abstraction
+- Python3 Libraries (pygame, tkinter, numpy, etc.)
 - GUI and graphics based applications
 - Robotics control systems (WPILib, CTRE Phoenix) 
+- Simple Machine Learning and AI algorithms
 
 What I want to learn in the future:
-- Machine Learning and AI
-- More advanced algortims for Robots
-- How to apply AI to robotics
+- More advanced algortims for Robots using artificial intelligence
 - Javascript
+- C programming
 - Cybersecurity
 - Ethical Hacking
+- Creating more consumer friendly products

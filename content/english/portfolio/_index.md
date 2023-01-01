@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-description: "Programming and Robotics Projects I have done."
+description: "Completed Programming Projects "
 draft: false
 
 
